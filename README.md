@@ -3,6 +3,28 @@ Welcome to my AI self education repo. This is my personal space for hands-on lea
 
 ## Session Summaries
 
+### How to Add Sessions
+
+- Source of truth: add each new session directly to `README.md` under `## Session Summaries`.
+- Structure: create a new `### Session N` heading (increment N) followed by the table below.
+- Ordering: keep sessions in chronological order (new sessions appended at the end).
+- Commit: commit after each session so GitHub stays in sync.
+
+Template table to copy:
+
+| Section | Details |
+| --- | --- |
+| Session Overview | • Date: YYYY-MM-DD<br>• Topic: [Topic] |
+| Reading Summary | • Chapters/Sections Covered: [Source — sections]<br>• Key Insights:<br>• [Takeaway 1]<br>• [Takeaway 2] |
+| Hands-On Experiment | • Experiment Description: [Short description]<br>• Observations:<br>• [Observation]<br>• [Surprising result] |
+| Video & Reflection | • Video Title/Link: [Title] [URL]<br>• Reflections:<br>• [Reflection 1]<br>• [Reflection 2] |
+| Wrap-Up Note | • Session Summary: [2–3 sentences]<br>• Next Steps:<br>• [1–3 bullets] |
+
+Quick commit steps:
+- `git add README.md`
+- `git commit -m "docs: add Session N summary to README"`
+- `git pull --rebase && git push`
+
 ### Session 1
 
 | Section | Details |
